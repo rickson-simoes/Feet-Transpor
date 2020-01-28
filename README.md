@@ -12,7 +12,7 @@
 
 ### **Parte 1 do desafio**
 
-Criando a aplicação do zero  com **Node.JS** utilizando o [Express](https://expressjs.com/), configurando as seguintes ferramentas:
+Criando a aplicação do zero com **Node.JS** utilizando o [Express](https://expressjs.com/), configurando as seguintes ferramentas:
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
