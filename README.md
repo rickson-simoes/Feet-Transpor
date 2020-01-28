@@ -7,7 +7,7 @@
 </h3>
 
 <h3 align="center">
-  :warning: Etapa 1/4 do Desafio Final :warning:
+  :warning: Etapa 1/4 do Desafio :warning:
 </h3>
 
 ### **Parte 1 do desafio**
