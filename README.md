@@ -20,10 +20,8 @@ Criando a aplicação do zero  com **Node.JS** utilizando o [Express](https://e
 
 ## **Funcionalidades** ***1/4***
 
-- **1. Autenticação**
- <br /> 
+- **1. Autenticação**  <br />
 usuário deve se autenticar na aplicação utilizando e-mail e uma senha.
 
-- **2. Gestão de destinatários**
- <br />
+- **2. Gestão de destinatários** <br />
 permitir que destinatários sejam mantidos (cadastrados/atualizados) na aplicação, e esses devem ter o nome do destinatário e campos de endereço: rua, número, complemento, estado, cidade e CEP. <br />
