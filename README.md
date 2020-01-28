@@ -12,7 +12,7 @@
 
 ### **Parte 1 do desafio**
 
-Criando a aplicação do zero utilizando o [Express](https://expressjs.com/), configurando as seguintes ferramentas:
+Criando a aplicação do zero  com **Node.JS** utilizando o [Express](https://expressjs.com/), configurando as seguintes ferramentas:
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
@@ -21,4 +21,6 @@ Criando a aplicação do zero utilizando o [Express](https://expressjs.com/), c
 ## **Funcionalidades** ***1/4***
 
 - **1. Autenticação**
+ usuário deve se autenticar na aplicação utilizando e-mail e uma senha. <br />
 - **2. Gestão de destinatários**
+permitir que destinatários sejam mantidos (cadastrados/atualizados) na aplicação, e esses devem ter o nome do destinatário e campos de endereço: rua, número, complemento, estado, cidade e CEP. <br />
