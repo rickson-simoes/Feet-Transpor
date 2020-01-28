@@ -1,0 +1,11 @@
+{
+  "name": "projeto_fastfeet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rickson-simoes/projeto_fastfeet.git",
+  "author": "Rickson <rickson.simoes@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
