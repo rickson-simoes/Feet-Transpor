@@ -18,7 +18,7 @@ Criando a aplicação do zero utilizando o [Express](https://expressjs.com/), c
 - ESLint + Prettier + EditorConfig;
 - Sequelize (Utilize PostgreSQL ou MySQL);
 
-## **Funcionalidades**
+## **Funcionalidades** ***1/4***
 
 - **1. Autenticação**
 - **2. Gestão de destinatários**
