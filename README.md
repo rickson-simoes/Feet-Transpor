@@ -20,5 +20,5 @@ Criando a aplicação do zero utilizando o [Express](https://expressjs.com/), c
 
 ## **Funcionalidades**
 
-**1. Autenticação**
-**2. Gestão de destinatários**
+- **1. Autenticação**
+- **2. Gestão de destinatários**
