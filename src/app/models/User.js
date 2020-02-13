@@ -21,6 +21,11 @@ class User extends Model {
         sequelize,
       }
     );
+    return this;
+  }
+
+  checkPassword(pwd) {
+    return bcrypt.compare(pwd, this.password_hash);
   }
 }
 
