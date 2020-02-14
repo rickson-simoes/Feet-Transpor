@@ -14,6 +14,8 @@ class UserController {
   }
 
   async update(req, res) {
+    console.log(req.IdUsuario);
+
     return res.status(200).json(true);
   }
 }
