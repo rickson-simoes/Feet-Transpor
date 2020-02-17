@@ -7,3 +7,6 @@ yarn sequelize db:migrate
 * MD5 Online
 nome: fastfeetapp
 encriptado: afd58f0038b5c5ccd0bc2109be6ef399
+
+* Db seed:
+yarn sequelize db:seed:all
