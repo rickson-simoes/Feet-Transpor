@@ -10,6 +10,20 @@ class RecipientController {
 
     return res.json(recipientShow);
   }
+
+  async store(req, res) {
+    const {
+      nome,
+      rua,
+      numero,
+      complemento,
+      estado,
+      cidade,
+      cep,
+    } = await Recipient.create(req.body);
+
+    return res.json({ nome, rua, numero, complemento, estado, cidade, cep });
+  }
 }
 
 export default new RecipientController();
