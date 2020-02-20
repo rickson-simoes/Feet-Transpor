@@ -1,3 +1,4 @@
+import * as Yup from 'yup';
 import Recipient from '../models/Recipient';
 
 class RecipientController {
@@ -12,6 +13,20 @@ class RecipientController {
   }
 
   async store(req, res) {
+    const schema = Yup.object().shape({
+      nome: Yup.string().required(),
+      rua: Yup.string().required(),
+      numero: Yup.string().required(),
+      complemento: Yup.string().required(),
+      estado: Yup.string().required(),
+      cidade: Yup.string().required(),
+      cep: Yup.string().required(),
+    });
+
+    if (!(await schema.isValid(req.body))) {
+      return res.status(400).json({ message: 'Validation fails' });
+    }
+
     const {
       nome,
       rua,
