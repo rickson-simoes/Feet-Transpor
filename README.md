@@ -37,7 +37,7 @@ permitir que destinatários sejam mantidos (cadastrados/atualizados) na aplicaç
 Permita que o administrador possa cadastrar entregadores para a plataforma. <br/>
 Crie rotas para listagem/cadastro/atualização/remoção de entregadores;
 
-Obs.: Essa funcionalidade é para administradores autenticados na aplicação.
+**Obs.: Essa funcionalidade é para administradores autenticados na aplicação.**
 
 - **2. Gestão de encomendas** <br />
 Apesar do entregador estar cadastrado, ele não é independente dentro da plataforma, e você deve cadastrar encomendas para os entregadores. Nessa funcionalidade criaremos um cadastro de encomendas por entregador.
@@ -52,4 +52,5 @@ Quando a encomenda é cadastrada para um entregador, o entregador recebe um e-ma
 <br />
 Crie rotas para listagem/cadastro/atualização/remoção de encomendas;
 <br />
-Obs.: Essa funcionalidade é para administradores autenticados na aplicação.
+
+**Obs.: Essa funcionalidade é para administradores autenticados na aplicação.**
