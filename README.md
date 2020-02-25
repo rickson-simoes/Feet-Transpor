@@ -10,8 +10,6 @@
   :warning: Etapa 1/4 do Desafio :warning:
 </h3>
 
-### **Parte 1 do desafio**
-
 Criando a aplicação do zero com **Node.JS** utilizando o [Express](https://expressjs.com/), configurando as seguintes ferramentas:
 
 - Sucrase + Nodemon;
@@ -31,8 +29,6 @@ permitir que destinatários sejam mantidos (cadastrados/atualizados) na aplicaç
 <h3 align="center">
   :warning: Etapa 2/4 do Desafio :warning:
 </h3>
-
-### **Parte 2 do desafio**
 
 
 ## **Funcionalidades** ***2/4***
