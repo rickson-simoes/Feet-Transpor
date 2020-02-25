@@ -3,10 +3,6 @@
 </h1>
 
 <h3 align="center">
-  Desafio 1: FastFeet, o início
-</h3>
-
-<h3 align="center">
   :warning: Etapa 1/4 do Desafio :warning:
 </h3>
 
