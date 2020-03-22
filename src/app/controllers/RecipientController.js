@@ -39,6 +39,32 @@ class RecipientController {
 
     return res.json({ nome, rua, numero, complemento, estado, cidade, cep });
   }
+
+  async update(req, res) {
+    const schema = Yup.object().shape({
+      nome: Yup.string(),
+      rua: Yup.string(),
+      numero: Yup.string(),
+      complemento: Yup.string(),
+      estado: Yup.string(),
+      cidade: Yup.string(),
+      cep: Yup.string(),
+    });
+
+    if (!(await schema.isValid(req.body))) {
+      return res.status(400).json({ Message: 'Invalid information' });
+    }
+
+    const recipientId = await Recipient.findByPk(req.params.id);
+
+    if (!recipientId) {
+      return res.status(400).json({ Message: 'User not found' });
+    }
+
+    const recipientUpdate = await recipientId.update(req.body);
+
+    return res.json(recipientUpdate);
+  }
 }
 
 export default new RecipientController();
