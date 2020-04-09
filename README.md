@@ -32,17 +32,17 @@ Crie rotas para listagem/cadastro/atualização/remoção de entregadores;</i>
 
 **Obs.: Essa funcionalidade é para administradores autenticados na aplicação.**
 
-- **2. Gestão de encomendas** <br />
-<i>Apesar do entregador estar cadastrado, ele não é independente dentro da plataforma, e você deve cadastrar encomendas para os entregadores. Nessa funcionalidade criaremos um cadastro de encomendas por entregador.
+~~- **2. Gestão de encomendas** <br />
+~~<i>Apesar do entregador estar cadastrado, ele não é independente dentro da plataforma, e você deve cadastrar encomendas para os entregadores. Nessa funcionalidade criaremos um cadastro de encomendas por entregador.
 
-A data de início deve ser cadastrada assim que for feita a retirada do produto pelo entregador, e as retiradas só podem ser feitas entre as 08:00 e 18:00h. 
+~~A data de início deve ser cadastrada assim que for feita a retirada do produto pelo entregador, e as retiradas só podem ser feitas entre as 08:00 e 18:00h. 
 
-A data de término da entrega deve ser cadastrada quando o entregador finalizar a entrega.
+~~A data de término da entrega deve ser cadastrada quando o entregador finalizar a entrega.
 
-Os campos recipient_id e deliveryman_id devem ser cadastrados no momento que for cadastrada a encomenda.
+~~Os campos recipient_id e deliveryman_id devem ser cadastrados no momento que for cadastrada a encomenda.
 
-Quando a encomenda é cadastrada para um entregador, o entregador recebe um e-mail com detalhes da encomenda, com nome do produto e uma mensagem informando-o que o produto já está disponível para a retirada.
+~~Quando a encomenda é cadastrada para um entregador, o entregador recebe um e-mail com detalhes da encomenda, com nome do produto e uma mensagem informando-o que o produto já está disponível para a retirada.
 
-Crie rotas para listagem/cadastro/atualização/remoção de encomendas.</i>
+~~Crie rotas para listagem/cadastro/atualização/remoção de encomendas.</i>
 
-**Obs.: Essa funcionalidade é para administradores autenticados na aplicação.**
+**~~Obs.: Essa funcionalidade é para administradores autenticados na aplicação.**
